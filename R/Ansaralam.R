@@ -9,6 +9,6 @@ kun<-function(x){
   par(mfrow=c(1,1))
   data.frame(min=min(x),
              median=median(x),
-             max=max(x)),
-             sd=sd(x)
+             max=max(x),
+             sd=sd(x))
 }
